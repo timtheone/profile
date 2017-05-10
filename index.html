@@ -13,8 +13,8 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="card">
-  <img src="images/avatar.jpg" width="200px" height="200px" id="img-circle" alt="Tim Almamedov">
+  <div class="card" id="info">
+    <img src="images/avatar.jpg" width="200px" height="200px" id="img-circle" alt="Tim Almamedov">
 
     <h1>Tim Almamedov</h1>
 
@@ -39,7 +39,7 @@
     </ul>
   </div>
 
-  <div class="card">
+  <div class="card" id="movies">
     <h2>My favorite Movies</h2>
 
     <table>
@@ -74,7 +74,7 @@
     </table>
   </div>
 
-  <div class="card">
+  <div class="card" id="about">
     <h2>About this page</h2>
 
     <p>This page has been coded during the <a href="http://lewagon.org/program" target="_blank">FullStack program @LeWagon.</a> That was probably the best experience of my entire life.</p>
@@ -84,6 +84,22 @@
       <li><i class="fa fa-share" aria-hidden="true"></i></li>
       <li><i class="fa fa-star" aria-hidden="true"></i></li>
     </ul>
+  </div>
+
+  <div class="sidebar">
+    <div class="content">
+      <ul class="list-inline">
+        <li>
+          <a href="#info"><i class="fa fa-info-circle"></i></a>
+        </li>
+        <li>
+          <a href="#movies"><i class="fa fa-file-video-o"></i></a>
+        </li>
+        <li>
+          <a href="#about"><i class="fa fa-life-ring"></i></a>
+        </li>
+      </ul>
+    </div>
   </div>
 
 </body>

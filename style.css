@@ -81,3 +81,23 @@ p {
   color: white;
   background-color: #C61414;
 }
+
+.sidebar {
+  position: fixed;
+  width: 100px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #384047;
+  text-align: center;
+}
+
+.content {
+  font-size: 25px;
+  display: inline-block;
+  margin-top: 250px;
+}
+
+.sidebar > .content > a:hover {
+  color: white;
+}
