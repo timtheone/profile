@@ -98,6 +98,6 @@ p {
   margin-top: 250px;
 }
 
-.sidebar > .content > a:hover {
+.sidebar > .content > .list-inline > li > a:hover {
   color: white;
 }
