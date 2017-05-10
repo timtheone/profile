@@ -1,0 +1,83 @@
+/* Here goes your CSS */
+/* Here goes your CSS */
+body {
+  background-color: #EBEBEB;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  color: grey;
+  line-height: 1.6em;
+}
+
+a {
+  color: #BBBBBd;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #DD5555;
+}
+
+h1 {
+  color: #DD5555;
+}
+
+h2 {
+  color: #7D7D7D;
+  font-weight: lighter;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+  position: relative;
+  bottom: 50px;
+  color: #545454;
+}
+
+p {
+  font-weight: 300;
+}
+
+#img-circle {
+  border-radius: 50%;
+}
+
+.card {
+  background-color: white;
+  width: 550px;
+  border: 1px solid white;
+  border-radius: 4px;
+  margin: 20px auto;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.2)
+}
+
+.movie-poster {
+  margin-right: 6px;
+  margin-bottom: 6px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 20px 20px;
+}
+
+.btn-red {
+  color: white;
+  background-color: #DD5555;
+  padding: 10px;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 20px;
+}
+
+.btn-red:hover {
+  color: white;
+  background-color: #C61414;
+}
